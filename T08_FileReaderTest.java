@@ -1,6 +1,5 @@
 package kr.or.ddit.basic;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -14,7 +13,7 @@ public class T08_FileReaderTest {
 		
 		int c;
 		while((c=fr.read()) != -1) {
-			System.out.println((char)c);
+			System.out.print((char)c);
 		}
 		fr.close();
 	}

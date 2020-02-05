@@ -1,5 +1,6 @@
 package kr.or.ddit.basic;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +11,7 @@ public class T07_FileWirterTest {
 		
 		// 콘솔(표준입출력장치)과 연결된 입력용 문자 스트림 생성
 		// InputStreamReader스트림 => 바이트기반 스트림을 문자기반 스트림으로 변환해주는 보조 스트림이다.
-		
+	
 		InputStreamReader isr = new InputStreamReader(System.in);
 		
 		FileWriter fw =null; //파일 출력용 문자 기반 스트림
